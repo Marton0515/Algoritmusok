@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+html,body{
+    width: 100%;
 }
 
 body{
@@ -29,4 +35,16 @@ input {
 }
 .everyDrop li{
     list-style: none;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.flexEr {
+    display: flex;
+    flex-direction: column;
 }
