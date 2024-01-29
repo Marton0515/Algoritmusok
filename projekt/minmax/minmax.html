@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min-Max Keresés</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="minmax.js"></script>
+</head>
+<body>
+        <div class="keret1">
+            <h2>Minimum kiválasztás algoritmusa</h2>
+        <hr>
+        <p>Adott egy A(N) vektorban tárolt N elemű sorozat.</p>
+            <p>Feladat: a sorozat legkisebb elemének kiválasztása,</p>
+            <p>A kiválasztás menete: az addig talált legkisebb elemhez viszonyítva a következőket,</p>
+            <p>amennyiben kisebbet találunk megjegyezzük az indexét.</p>
+            <br>
+            <p>Eljárás_minkiv</p>
+            <p>min:=1</p>
+            <p>Ciklus i=2-től N-ig</p>
+            <p>Ha A(min)>A(i) akkor min:=i</p>
+            <p>Ciklus vége</p>
+            <p>minindex:=min</p>
+            <p>Eljárás vége</p>
+    </div>
+    <br>
+    <div class="keret2">
+        <h2>Maximum kiválasztás algoritmusa</h2>
+        <hr>
+        <p>Maximumkiválasztás tétele</p>
+        <p>Adott egy A(N) vektorban tárolt N elemű sorozat.</p>
+        <p>Feladat: a sorozat legnagyobb elemének kiválasztása.</p>
+        <p>A kiválasztás menete: az addig talált legnagyobb elemhez viszonyítva a következőket, amennyiben nagyobbat találunk megjegyezzük az indexét.</p>
+        <br>
+        <p>Eljárás_maxkiv</p>
+        <p>max:=1</p>
+        <p>Ciklus i=2-től N-ig</p>
+        <p>Ha A(max)&lt;A(i) akkor max:=i</p>
+        <p>Ciklus vége</p>
+        <p>maxindex:=max</p>
+        <p>Eljárás vége</p>
+    </div>
+</body>
+</html>
