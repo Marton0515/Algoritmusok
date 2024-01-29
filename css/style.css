@@ -7,3 +7,26 @@
 body{
     background-color: #212121;
 }
+h2,h1,p,li,a,label,span{
+    color: #fff;
+}
+input {
+    outline: none;
+    padding: 10px 20px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.everyDrop{
+    display: flex;
+    flex-direction: row;
+    background-color: #373636;
+    justify-content: space-around;
+    border: 5px #fff solid;
+    border-radius: 5px;
+    padding: 50px;
+}
+.everyDrop li{
+    list-style: none;
+}
